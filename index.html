@@ -1,372 +1,414 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
 
 <head>
-    <title>Welcome | VPDWEB</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-    <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-    <link rel="stylesheet" href="assets/css/main.css" />
-    <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-    <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">     <title>Welcome | VPDEWB</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="print, web design and development portfolio" />
+    <meta name="keywords" content="portfolio, web design, web development, web scraping, logo design, print design" />
+    <meta name="author" content="vpdweb.com" />
+
+    <!-- Facebook and Twitter integration -->
+    <meta property="og:title" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:site_name" content="" />
+    <meta property="og:description" content="" />
+    <meta name="twitter:title" content="" />
+    <meta name="twitter:image" content="" />
+    <meta name="twitter:url" content="" />
+    <meta name="twitter:card" content="" />
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,600,400italic,700' rel='stylesheet' type='text/css'>
+
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <!-- Flexslider -->
+    <link rel="stylesheet" href="assets/css/flexslider.css">
+    <!-- Icomoon Icon Fonts-->
+    <link rel="stylesheet" href="assets/css/icomoon.css">
+    <!-- Magnific Popup -->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <!-- Bootstrap  -->
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+
+    <!-- 
+	Default Theme Style 
+	You can change the style.css to one of these styles
+	turquoise.css
+	orange.css
+	red.css
+	blue.css
+	pink.css
+	yellow.css
+	purple.css
+	-->
+    <link rel="stylesheet" href="assets/css/orange.css">
+
+    <!-- Modernizr JS -->
+    <script src="assets/js/modernizr-2.6.2.min.js"></script>
+    <!-- FOR IE9 below -->
+    <!--[if lt IE 9]>
+	<script src="assets/js/respond.min.js"></script>
+	<![endif]-->
+
 </head>
 
 <body>
 
-    <!-- Wrapper -->
-    <div id="wrapper">
+    <!-- Loader -->
+    <div class="vpdweb-loader"></div>
 
-        <!-- Header -->
-        <header id="header" class="alt">
-            <a href="index.html" class="logo"><strong>VPDWEB</strong></a>
-            <!--<p>Design. Develop. Share</p>-->
-            <nav>
-                <a href="#menu">Menu</a>
-            </nav>
-        </header>
-
-        <!-- Menu -->
-        <nav id="menu">
-            <ul class="links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="testimonials.html">Testimonials</a></li>
-            </ul>
-            <ul class="actions vertical">
-                <li><a href="contact.html" class="button special fit">Contact</a></li>
-                <!--<li><a href="#" class="button fit">Log In</a></li>-->
-            </ul>
-        </nav>
-
-        <!-- Banner -->
-        <section id="banner" class="major">
-            <div class="inner">
-                <header class="major">
-                    <h1>Hi, welcome to our website</h1>
-                </header>
-                <div class="content">
-                    <p>We are a group of web designers and developers committed to delivering outstanding products that are geared to helping our clients stand out and stay ahead of the competition
-                    </p>
-                    <ul class="actions">
-                        <li><a href="portfolio.html" class="button next scrolly">See portfolio</a></li>
+    <div id="vpdweb-page">
+        <section id="vpdweb-header">
+            <div class="container">
+                <nav role="navigation">
+                    <h1 id="vpdweb-logo"><a href="index.html">VPDWEB</a></h1>
+                    <ul class="pull-right right-menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">About</a></li>
+                        <li class="vpdweb-cta-btn"><a href="#">Contact</a></li>
                     </ul>
+                </nav>
+            </div>
+        </section>
+        <!-- #vpdweb-header -->
+        <section id="vpdweb-hero" class="js-fullheight" style="background-image: url(assets/images/hero_bg.jpg);" data-next="yes">
+            <div class="vpdweb-overlay"></div>
+            <div class="container">
+                <div class="vpdweb-intro js-fullheight">
+                    <div class="vpdweb-intro-text">
+                        <div class="vpdweb-center-position">
+                            <h2>Hi, welcome to our website</h2>
+                            <p><a href="portfolio.html" target="_blank" class="btn btn-primary">See portfolio</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="vpdweb-learn-more ">
+                <a href="#" class="scroll-btn">
+                    <span class="text">Check out our services</span>
+                    <span class="arrow"><i class="icon-chevron-down"></i></span>
+                </a>
+            </div>
+        </section>
+        <!-- END #vpdweb-hero -->
+
+        <section id="vpdweb-services">
+            <div class="container">
+                <div class="row text-center row-bottom-padded-md">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h2 class="vpdweb-lead ">What we do</h2>
+                        <p class="vpdweb-sub-lead ">These are the main services we offer. For details click <a href="services.html">here</a></p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 col-sm-6 col-xs-12 ">
+                        <div class="vpdweb-service">
+                            <div class="vpdweb-icon">
+                                <i class="icon-code"></i>
+                            </div>
+                            <h3>Web Design &amp; Development</h3>
+                            <p>We build stylish, fully functional websites that look good on desktop computers, tablets and mobile phones</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 ">
+                        <div class="vpdweb-service">
+                            <div class="vpdweb-icon">
+                                <i class="icon-pagelines"></i>
+                            </div>
+                            <h3>Logo Design</h3>
+                            <p>We design unique, eye-catching logos for a variety of personal and business branding uses</p>
+                        </div>
+                    </div>
+                    <div class="clearfix visible-sm-block"></div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 ">
+                        <div class="vpdweb-service">
+                            <div class="vpdweb-icon">
+                                <i class="icon-stack"></i>
+                            </div>
+                            <h3>Business Card Design &amp; Printing</h3>
+                            <p>We design and print simple, clean, highly effective business cards that go straight to the hearts and minds of your potential clients</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 col-xs-12 ">
+                        <div class="vpdweb-service">
+                            <div class="vpdweb-icon">
+                                <i class="icon-newspaper-o"></i>
+                            </div>
+                            <h3>Poster, Flyer, Brochure Design &amp; Printing</h3>
+                            <p>Never underestimate the power and effectiveness of this tried and tested method of mass communication. Need to advertise some products or services to a large group of people with diverse backgrounds and in a short time? Then
+                                go this route.</p>
+                        </div>
+                    </div>
+                    <div class="clearfix visible-sm-block"></div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 ">
+                        <div class="vpdweb-service">
+                            <div class="vpdweb-icon">
+                                <i class="icon-gears"></i>
+                            </div>
+                            <h3>Web Scraping</h3>
+                            <p>Ever needed to extract specific data from a web page but somehow copy and paste was not an option? Or needed a specific data set defined and organized by your own &mdash; as opposed to the website owner's &mdash; criteria?
+                                Then web scraping to the rescue! Simply put, this is data extraction from any source on the World Wide Web with the added bonus of organizing that data in whichever way you see fit for whatever reasons.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 ">
+                        <div class="vpdweb-service">
+                            <div class="vpdweb-icon">
+                                <i class="icon-google"></i>
+                            </div>
+                            <h3>SEO &amp; Content Marketing</h3>
+                            <p>SEO stands for Search Engine Optimization. If you have a website that you need to properly set up for search engines such as Google or Microsoft's Bing to properly index, therefore increasing the chances of it appearing in
+                                searches then it needs to be optimized for exactly that. Content marketing, in its simplest form, is using the Internet to effectively find buyers for what you're selling</p>
+                        </div>
+                    </div>
+                    <div class="clearfix visible-sm-block"></div>
                 </div>
             </div>
         </section>
 
-        <!-- Main -->
-        <div id="main">
-            <div class="inner">
-                <header class="major">
-                    <h1>What we do</h1>
-                </header>
+        <!-- END #vpdweb-services -->
+
+        <section id="vpdweb-projects">
+            <div class="container">
+                <div class="row row-bottom-padded-md">
+                    <div class="col-md-6 col-md-offset-3 text-center">
+                        <h2 class="vpdweb-lead ">Selected works</h2>
+                        <p class="vpdweb-sub-lead ">Here are some samples of our latest works</p>
+                    </div>
+                </div>
+                <div class="row">
+
+                    <div class="col-md-4 col-sm-6 col-xxs-12 ">
+                        <a href="assets/images/logo_shairinaherbal1.jpg" class="vpdweb-project-item image-popup">
+                            <img src="assets/images/logo_shairinaherbal1.jpg" alt="Image" class="img-responsive">
+                            <div class="vpdweb-text">
+                                <h2>Logo Design</h2>
+                                <p>Simple, two-colour logo design. Done in Adobe Illustrator.</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 col-xxs-12 ">
+                        <a href="assets/images/website_ackstuti.jpg" class="vpdweb-project-item image-popup">
+                            <img src="assets/images/website_ackstuti.jpg" alt="Image" class="img-responsive">
+                            <div class="vpdweb-text">
+                                <h2>Web design &amp; Development</h2>
+                                <p>Designed in Photoshop, developed in VS Code and integrated into Wordpress.</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 col-xxs-12 ">
+                        <a href="assets/images/website_simonslegal.jpg" class="vpdweb-project-item image-popup">
+                            <img src="assets/images/website_simonslegal.jpg" alt="Image" class="img-responsive">
+                            <div class="vpdweb-text">
+                                <h2>Web design &amp; Development</h2>
+                                <p>Legal website designed in Photoshop and coded in VS Code.</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 col-xxs-12 ">
+                        <a href="assets/images/flyer_tgvs.jpg" class="vpdweb-project-item image-popup">
+                            <img src="assets/images/flyer_tgvs.jpg" alt="Image" class="img-responsive">
+                            <div class="vpdweb-text">
+                                <h2>Flyer Design</h2>
+                                <p>Simple flyer created in Adobe Illustrator using several shades of grey.</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 col-xxs-12 ">
+                        <a href="assets/images/bizcard_kchcbo.jpg" class="vpdweb-project-item image-popup">
+                            <img src="assets/images/bizcard_kchcbo.jpg" alt="Image" class="img-responsive">
+                            <div class="vpdweb-text">
+                                <h2>Two-sided Business Card</h2>
+                                <p>Multi-colored, two-sided business card. Designed in Adobe Illustrator.</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 col-xxs-12 ">
+                        <a href="assets/images/bizcard_shairina1.jpg" class="vpdweb-project-item image-popup">
+                            <img src="assets/images/bizcard_shairina1.jpg" alt="Image" class="img-responsive">
+                            <div class="vpdweb-text">
+                                <h2>One-sided Business Card</h2>
+                                <p>Two-colour business card design with info on one side only. Designed in Adobe Illustrator.</p>
+                            </div>
+                        </a>
+                    </div>
+
+
+                </div>
             </div>
-
-            <!-- One -->
-            <section id="one" class="tiles">
-                <article>
-                    <span class="image">
-										<img src="images/logo_design.jpg" alt="" />
-									</span>
-                    <header class="major">
-                        <h3>
-                            <a href="services/logo_design.html" class="link">
-                                                Logo Design
-                                            </a>
-                        </h3>
-                        <p>Unique, eye-catching logo designs for a variety of personal and business branding uses</p>
-                    </header>
-                </article>
-                <article>
-                    <span class="image">
-										<img src="images/web_design.jpg" alt="" />
-									</span>
-                    <header class="major">
-                        <h3>
-                            <a href="services/web_design_dev.html" class="link">
-                                                Web Design & Development
-                                            </a>
-                        </h3>
-                        <p>Stylish, fully functional websites that look good on desktop computers, tablets and mobile phones</p>
-                    </header>
-                </article>
-                <article>
-                    <span class="image">
-										<img src="images/bizcard_design.jpg" alt="" />
-									</span>
-                    <header class="major">
-                        <h3>
-                            <a href="services/biz_card_design.html" class="link">
-                                                Business Cards
-                                            </a>
-                        </h3>
-                        <p>Simple, straight to the point, highly effective</p>
-                    </header>
-                </article>
-                <article>
-                    <span class="image">
-										<img src="images/bfp_design.jpg" alt="" />
-									</span>
-                    <header class="major">
-                        <h3>
-                            <a href="services/flyer_poster_design.html" class="link">
-                                                Brochures / Flyers / Posters
-                                            </a>
-                        </h3>
-                        <p>Still a relevant and effective mass communication method</p>
-                    </header>
-                </article>
-                <article>
-                    <span class="image">
-										<img src="images/web_scraping.jpg" alt="" />
-									</span>
-                    <header class="major">
-                        <h3>
-                            <a href="services/web_scraping.html" class="link">
-                                                Web Scraping
-                                            </a>
-                        </h3>
-                        <p>Simply put, data extraction from any source on the World Wide Web</p>
-                    </header>
-                </article>
-                <article>
-                    <span class="image">
-										<img src="images/misc.jpg" alt="" />
-									</span>
-                    <header class="major">
-                        <h3>
-                            <a href="services/misc.html" class="link">
-                                                Miscellaneous Projects
-                                            </a>
-                        </h3>
-                        <p>Various other things we indulge in, moslty experimental in nature ;)</p>
-                    </header>
-                </article>
-            </section>
-
-            <!-- Two -->
-            <section id="two">
-                <div class="inner">
-                    <header class="major">
-                        <h1>What clients say</h1>
-                    </header>
-                    <div class="row">
-                        <div class="4u 12u$(medium)">
-                            <div class="row 50% uniform">
-                                <div class="4u">
-                                </div>
-                                <div class="4u">
-                                    <span class="image-rounded fit">
-                                                        <img src="images/client_jezz.jpg" alt="" />
-                                                    </span>
-                                </div>
-                                <div class="4u$">
-                                </div>
-                            </div>
-                            <br>
-                            <h4 class="align-center">Jezz Mnjala</h4>
-                            <blockquote>
-                                Well, I was referred to VPDWEB by a friend who had good things to say about their services. But I just wanted a simple logo done. I called them up, we met, talked about my side project - which needed a logo - and a few days later I had myself a beautiful,
-                                simple logo which looked good in colour as it did in black and white. Since then these are my go to guys for most of my design stuff.
-                            </blockquote>
-                            <ul class="icons align-center">
-                                <li>
-                                    <a href="#" class="icon fa-facebook">
-                                        <span class="label">Facebook</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="icon fa-linkedin">
-                                        <span class="label">LinkedIn</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="icon fa-envelope">
-                                        <span class="label">Email</span>
-                                    </a>
-                                </li>
-                            </ul>
+        </section>
+        <!-- END #vpdweb-projects -->
+        <section id="vpdweb-testimonials">
+            <div class="container">
+                <div class="row row-bottom-padded-sm">
+                    <div class="col-md-6 col-md-offset-3 text-center">
+                        <h2 class="vpdweb-lead ">What clients say</h2>
+                        <p class="vpdweb-sub-lead">We work around the clock to make sure clients get what they want on time and at an affordable price. Here's what some of our clients say about us and our services. Click on a client's photo to read their testimonial.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2 text-center ">
+                        <div class="flexslider-controls">
+                            <ol class="flex-control-nav">
+                                <li><img src="assets/images/jezz.jpg" alt="Jezz Mnjala"></li>
+                                <li><img src="assets/images/raymond.jpg" alt="Raymond Mughendi"></li>
+                                <li><img src="assets/images/kepher.jpg" alt="Kepher Luhombo"></li>
+                                <li><img src="assets/images/ted.jpg" alt="Steve Ted Jr."></li>
+                                <li><img src="assets/images/hebron.jpg" alt="Hebron Nyange"></li>
+                            </ol>
                         </div>
-                        <div class="4u 12u$(medium)">
-                            <div class="row 50% uniform">
-                                <div class="4u">
-                                </div>
-                                <div class="4u">
-                                    <span class="image-rounded fit">
-                                                        <img src="images/client_raymond.jpg" alt="" />
-                                                    </span>
-                                </div>
-                                <div class="4u$">
-                                </div>
-                            </div>
-                            <br>
-                            <h4 class="align-center">Raymond Mughendi</h4>
-                            <blockquote>
-                                I'm the Director at St Thomas Church Ufanisi Training Institute in Kilifi, North Coast region. I met Victor through a friend while I was looking for someone to build a website for our college. He quickly mocked up a series of designs in Photoshop over
-                                several meetings we had in the following days. I liked the designs and he went on to build the website, integrating it into Wordpress so that we could be doing updates ourselves. He made the whole process seem so much simpler
-                                and quicker than I had thought initially.
-                            </blockquote>
-                            <ul class="icons align-center">
+                        <div class="flexslider">
+                            <ul class="slides">
                                 <li>
-                                    <a href="#" class="icon fa-envelope">
-                                        <span class="label">Email</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="4u$ 12u$(medium)">
-                            <div class="row 50% uniform">
-                                <div class="4u">
-                                </div>
-                                <div class="4u">
-                                    <span class="image-rounded fit">
-                                                        <img src="images/client_kepher.jpg" alt="" />
-                                                    </span>
-                                </div>
-                                <div class="4u$">
-                                </div>
-                            </div>
-                            <br>
-                            <h4 class="align-center">Kepher Luhombo</h4>
-                            <blockquote>
-                                I'm the Minister at a small church in Shimoni, South Coast. VPDWEB have been very invaluable in helping me design a series of advertisement material for church functions. The great thing about our relationship is that we rarely have to meet face to face.
-                                I simply call them up, tell them what I need, and a few email attachments later we settle on a final design which they quickly print, package and send over by post. It's that simple. Their rates are also affordable compared
-                                to the people I've dealt with in the past.
-                            </blockquote>
-                            <ul class="icons align-center">
-                                <li>
-                                    <a href="#" class="icon fa-facebook">
-                                        <span class="label">Facebook</span>
-                                    </a>
+                                    <blockquote>
+                                        <p>Well, I was referred to VPDWEB by a friend who had good things to say about their services. But I just wanted a simple logo done. I called them up, we met, talked about a side project and a few days later I had
+                                            myself a beautiful, simple logo which looked good in colour as it did in black and white. Since then these are my go to guys for most of my design stuff.</p>
+                                        <p><cite>&mdash; Jezz Mnjala</cite></p>
+                                        <ul class="vpdweb-social">
+                                            <!--<li><a href="#"><i class="icon-facebook"></i></a></li>-->
+                                            <li><a href="mailto:jmnjala@gmail.com"><i class="icon-envelope"></i></a></li>
+                                            <li><a href="http://linkedin.com/in/jezreelmnjala" target="_blank"><i class="icon-linkedin"></i></a></li>
+                                        </ul>
+                                    </blockquote>
                                 </li>
                                 <li>
-                                    <a href="#" class="icon fa-skype">
-                                        <span class="label">Skype</span>
-                                    </a>
+                                    <blockquote>
+                                        <p>I'm the Manager at St Thomas Church Ufanisi Training Institute in Kilifi, North Coast. I met Victor through a friend while I was looking for someone to build a website for our college. He quickly mocked up a series
+                                            of designs in Photoshop over several meetings we had in the following days. I liked the designs and he went on to build the website, integrating it into Wordpress so that we could be doing updates ourselves.
+                                            He made the whole process seem so much simpler and quicker than I had thought initially.</p>
+                                        <p><cite>&mdash; Raymond Mghendi</cite></p>
+                                        <ul class="vpdweb-social">
+                                            <li><a href="mailto:raymwaka007@yahoo.com"><i class="icon-envelope"></i></a></li>
+                                            <li><a href="http://linkedin.com/in/raymond-mghendi-1b08466a" target="_blank"><i class="icon-linkedin"></i></a></li>
+                                        </ul>
+
+                                    </blockquote>
                                 </li>
                                 <li>
-                                    <a href="#" class="icon fa-envelope">
-                                        <span class="label">Email</span>
-                                    </a>
+                                    <blockquote>
+                                        <p>I'm the Minister at a small church in Shimoni, South Coast. VPDWEB have been very invaluable in helping me design a series of advertisement material for church functions. The great thing about our relationship is
+                                            that we rarely have to meet face to face. I simply call them up, tell them what I need, and a few email attachments later we settle on a final design which they quickly print, package and send over by post.
+                                            It's that simple. Their rates are also affordable compared to the people I've dealt with in the past.</p>
+                                        <p><cite>&mdash; Kepher Luhombo</cite></p>
+                                        <ul class="vpdweb-social">
+                                            <li><a href="http://www.facebook.com/kepher.luhombo" target="_blank"><i class="icon-facebook"></i></a></li>
+                                            <!--<li><a href="#"><i class="icon-envelope"></i></a></li>-->
+                                            <!--<li><a href="#"><i class="icon-skype"></i></a></li>-->
+                                        </ul>
+                                    </blockquote>
+                                </li>
+                                <li>
+                                    <blockquote>
+                                        <p>I've known Victor for the better part of five years and in that time he's designed for me a business card, a logo and advertisement flyers for my farming business. I've been very impressed by the nature of his work
+                                            &mdash; the level of commitment, professionalism and creativity he shows are things which I find lacking in most people in the design business. I highly recommend his services to anyone who values quality work.</p>
+                                        <p><cite>&mdash; Steve Ted Jr.</cite></p>
+                                        <ul class="vpdweb-social">
+                                            <li><a href="http://www.facebook.com/teddy.kotho" target="_blank"><i class="icon-facebook"></i></a></li>
+                                            <li><a href="mailto:teddykotho@yahoo.com"><i class="icon-envelope"></i></a></li>
+                                        </ul>
+                                    </blockquote>
+                                </li>
+                                <li>
+                                    <blockquote>
+                                        <p>I approached Victor with an offer to write me a web scraper that could collect specific job vacancy advertisements from several online sites here in the country and give me the results in a neat way that I could
+                                            quickly digest. He said yes and wrote me a program in <em>Python</em>, installed it on my laptop and it did more than what I expected. I could filter results by salary, location, or whatever criteria was available.
+                                            This was an invaluable tool. I have a job now but my friends use it from time to time. Sometimes I fire it up just for fun to see the results the program comes up with. Sometimes I don't get results on some
+                                            websites but I guess it's because it needs updates or something as websites tend to change over time from what I understand.</p>
+                                        <p><cite>&mdash; Hebron Nyange</cite></p>
+                                        <ul class="vpdweb-social">
+                                            <li><a href="http://www.facebook.com/hebron.nyange" target="_blank"><i class="icon-facebook"></i></a></li>
+                                            <li><a href="mailto:hebron9491@gmail.com"><i class="icon-envelope"></i></a></li>
+                                        </ul>
+                                    </blockquote>
                                 </li>
                             </ul>
                         </div>
                     </div>
-                    <ul class="actions align-right">
-                        <li><a href="testimonials.html" class="button next">See all</a></li>
-                    </ul>
                 </div>
-            </section>
-
-        </div>
-
-
-        <!-- Contact -->
-        <section>
-            <div class="inner">
-                <header class="major">
-                    <h1>Say hi</h1>
-                </header>
             </div>
         </section>
-        <section id="contact">
-            <div class="inner">
-                <section>
-                    <form method="post" action="#">
-                        <div class="field half first">
-                            <label for="name">Name</label>
-                            <input type="text" name="name" id="name" />
-                        </div>
-                        <div class="field half">
-                            <label for="email">Email</label>
-                            <input type="text" name="email" id="email" />
-                        </div>
-                        <div class="field">
-                            <label for="message">Message</label>
-                            <textarea name="message" id="message" rows="6"></textarea>
-                        </div>
-                        <ul class="actions">
-                            <li><input type="submit" value="Send Message" class="special" /></li>
-                            <li><input type="reset" value="Clear" /></li>
-                        </ul>
-                    </form>
-                </section>
-                <section class="split">
-                    <section>
-                        <div class="contact-method">
-                            <span class="icon alt fa-envelope"></span>
-                            <h3>Email</h3>
-                            <a href="#">info@vpdweb.com</a>
-                        </div>
-                    </section>
-                    <section>
-                        <div class="contact-method">
-                            <span class="icon alt fa-phone"></span>
-                            <h3>Phone</h3>
-                            <span>+254 736900303</span> / <span>+254 713895098</span>
-                        </div>
-                    </section>
-                    <section>
-                        <div class="contact-method">
-                            <span class="icon alt fa-location-arrow"></span>
-                            <h3>Location</h3>
-                            <span>Nairobi, Mombasa</span>
-                        </div>
-                    </section>
-                </section>
+        <!-- END #vpdweb-testimonials -->
+
+        <section id="vpdweb-subscribe">
+            <div class="container">
+
+                <h3><label for="email">Get price quotes for all services</label></h3>
+                <form action="#" method="post">
+                    <i class="vpdweb-icon icon-paper-plane"></i>
+                    <input type="email" class="form-control" placeholder="Enter your email" id="email" name="email">
+                    <input type="submit" value="Send" class="btn btn-primary">
+                </form>
+
             </div>
         </section>
+        <!-- END #vpdweb-subscribe -->
 
-        <!-- Footer -->
-        <footer id="footer">
-            <div class="inner">
-                <ul class="icons align-center">
-                    <li>
-                        <a href="#" class="icon alt fa-twitter">
-                            <span class="label">Twitter</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="icon alt fa-facebook">
-                            <span class="label">Facebook</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="icon alt fa-instagram">
-                            <span class="label">Instagram</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="icon alt fa-github">
-                            <span class="label">GitHub</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="icon alt fa-linkedin">
-                            <span class="label">LinkedIn</span>
-                        </a>
-                    </li>
-                </ul>
-                <ul class="copyright align-center">
-                    <li>&copy; 2017, VPDWEB</li>
-                </ul>
+        <footer id="vpdweb-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="vpdweb-footer-widget">
+                            <p>Follow us</p>
+                            <ul class="vpdweb-social">
+                                <li><a href="#"><i class="icon-twitter"></i></a></li>
+                                <li><a href="#"><i class="icon-facebook"></i></a></li>
+                                <li><a href="#"><i class="icon-instagram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="vpdweb-copyright ">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p class="vpdweb-left"><small>&copy; 2017 <a href="index.html">VPDWEB&nbsp;&nbsp; </a></small></p>
+                            <p class="vpdweb-right"><small class="vpdweb-right">Designed by <a href="http://vpdweb.com" target="_blank">VPDWEB</a></small></p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </footer>
+        <!-- END #vpdweb-footer -->
     </div>
+    <!-- END #vpdweb-page -->
 
-    <!-- Scripts -->
+    <!-- jQuery -->
     <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/jquery.scrolly.min.js"></script>
-    <script src="assets/js/jquery.scrollex.min.js"></script>
-    <script src="assets/js/skel.min.js"></script>
-    <script src="assets/js/util.js"></script>
-    <script src="assets/js/isotope.pkgd.min.js"></script>
-    <script src="assets/js/velocity.min.js"></script>
-    <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-    <script src="assets/js/portfolio.js"></script>
+    <!-- jQuery Easing -->
+    <script src="assets/js/jquery.easing.1.3.js"></script>
+    <!-- Bootstrap -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- Waypoints -->
+    <script src="assets/js/jquery.waypoints.min.js"></script>
+    <!-- Flexslider -->
+    <script src="assets/js/jquery.flexslider-min.js"></script>
+    <!-- Magnific Popup -->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/magnific-popup-options.js"></script>
+    <!-- Main js file -->
     <script src="assets/js/main.js"></script>
+
+
 </body>
 
 </html>
