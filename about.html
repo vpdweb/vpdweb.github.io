@@ -1,596 +1,316 @@
-
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-	<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Guide &mdash; 100% Free Fully Responsive HTML5 Template by FREEHTML5.co</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
-	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
-	<meta name="author" content="FREEHTML5.CO" />
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
 
-  <!-- 
-	//////////////////////////////////////////////////////
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <title>About | VPDWEB</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="print, web design and development portfolio" />
+    <meta name="keywords" content="portfolio, web design, web development, web scraping, logo design, print design" />
+    <meta name="author" content="vpdweb.com" />
 
-	FREE HTML5 TEMPLATE 
-	DESIGNED & DEVELOPED by FREEHTML5.CO
-		
-	Website: 		http://freehtml5.co/
-	Email: 			info@freehtml5.co
-	Twitter: 		http://twitter.com/fh5co
-	Facebook: 		https://www.facebook.com/fh5co
+    <!-- Facebook and Twitter integration -->
+    <meta property="og:title" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:site_name" content="" />
+    <meta property="og:description" content="" />
+    <meta name="twitter:title" content="" />
+    <meta name="twitter:image" content="" />
+    <meta name="twitter:url" content="" />
+    <meta name="twitter:card" content="" />
 
-	//////////////////////////////////////////////////////
-	 -->
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link rel="shortcut icon" href="favicon.ico">
 
-  	<!-- Facebook and Twitter integration -->
-	<meta property="og:title" content=""/>
-	<meta property="og:image" content=""/>
-	<meta property="og:url" content=""/>
-	<meta property="og:site_name" content=""/>
-	<meta property="og:description" content=""/>
-	<meta name="twitter:title" content="" />
-	<meta name="twitter:image" content="" />
-	<meta name="twitter:url" content="" />
-	<meta name="twitter:card" content="" />
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,600,400italic,700' rel='stylesheet' type='text/css'>
 
-	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-	<link rel="shortcut icon" href="favicon.ico">
-
-	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,600,400italic,700' rel='stylesheet' type='text/css'>
-	
-	<!-- Animate.css -->
-	<link rel="stylesheet" href="css/animate.css">
-	<!-- Flexslider -->
-	<link rel="stylesheet" href="css/flexslider.css">
-	<!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="css/icomoon.css">
-	<!-- Magnific Popup -->
-	<link rel="stylesheet" href="css/magnific-popup.css">
-	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="css/bootstrap.css">
-
-	<!-- 
-	Default Theme Style 
-	You can change the style.css (default color purple) to one of these styles
-	-->
-	<link rel="stylesheet" href="css/style.css">
-
-	<!-- Styleswitcher ( This style is for demo purposes only, you may delete this anytime. ) -->
-	<link rel="stylesheet" id="theme-switch" href="css/style.css">
-	<!-- End demo purposes only -->
-
-
-	<style>
-	/* For demo purpose only */
-
-	/*
-	GREEN
-	8dc63f
-	RED
-	FA5555
-	TURQUOISE
-	27E1CE
-	BLUE 
-	2772DB
-	ORANGE
-	FF7844
-	YELLOW
-	FCDA05
-	PINK
-	F64662
-	PURPLE
-	7045FF
-
-	*/
-	
-	/* For Demo Purposes Only ( You can delete this anytime :-) */
-	#colour-variations {
-		padding: 10px;
-		-webkit-transition: 0.5s;
-	  	-o-transition: 0.5s;
-	  	transition: 0.5s;
-		width: 140px;
-		position: fixed;
-		left: 0;
-		top: 100px;
-		z-index: 999999;
-		background: #fff;
-		/*border-radius: 4px;*/
-		border-top-right-radius: 4px;
-		border-bottom-right-radius: 4px;
-		-webkit-box-shadow: 0 0 9px 0 rgba(0,0,0,.1);
-		-moz-box-shadow: 0 0 9px 0 rgba(0,0,0,.1);
-		-ms-box-shadow: 0 0 9px 0 rgba(0,0,0,.1);
-		box-shadow: 0 0 9px 0 rgba(0,0,0,.1);
-	}
-	#colour-variations.sleep {
-		margin-left: -140px;
-	}
-	#colour-variations h3 {
-		text-align: center;;
-		font-size: 11px;
-		letter-spacing: 2px;
-		text-transform: uppercase;
-		color: #777;
-		margin: 0 0 10px 0;
-		padding: 0;;
-	}
-
-	#colour-variations ul,
-	#colour-variations ul li {
-		padding: 0;
-		margin: 0;
-	}
-	#colour-variations ul {
-		margin-bottom: 20px;
-		float: left;	
-	}
-	#colour-variations li {
-		list-style: none;
-		display: inline;
-	}
-	#colour-variations li a {
-		width: 20px;
-		height: 20px;
-		position: relative;
-		float: left;
-		margin: 5px;
-	}
-
-
-
-	#colour-variations li a[data-theme="style"] {
-		background: #8dc63f;
-	}
-	#colour-variations li a[data-theme="red"] {
-		background: #FA5555;
-	}
-	#colour-variations li a[data-theme="turquoise"] {
-		background: #27E1CE;
-	}
-	#colour-variations li a[data-theme="blue"] {
-		background: #2772DB;
-	}
-	#colour-variations li a[data-theme="orange"] {
-		background: #FF7844;
-	}
-	#colour-variations li a[data-theme="yellow"] {
-		background: #FCDA05;
-	}
-	#colour-variations li a[data-theme="pink"] {
-		background: #F64662;
-	}
-	#colour-variations li a[data-theme="purple"] {
-		background: #7045FF;
-	}
-
-	#colour-variations a[data-layout="boxed"],
-	#colour-variations a[data-layout="wide"] {
-		padding: 2px 0;
-		width: 48%;
-		border: 1px solid #ededed;
-		text-align: center;
-		color: #777;
-		display: block;
-	}
-	#colour-variations a[data-layout="boxed"]:hover,
-	#colour-variations a[data-layout="wide"]:hover {
-		border: 1px solid #777;
-	}
-	#colour-variations a[data-layout="boxed"] {
-		float: left;
-	}
-	#colour-variations a[data-layout="wide"] {
-		float: right;
-	}
-
-	.option-toggle {
-		position: absolute;
-		right: 0;
-		top: 0;
-		margin-top: 5px;
-		margin-right: -30px;
-		width: 30px;
-		height: 30px;
-		background: #8dc63f;
-		text-align: center;
-		border-top-right-radius: 4px;
-		border-bottom-right-radius: 4px;
-		color: #fff;
-		cursor: pointer;
-		-webkit-box-shadow: 0 0 9px 0 rgba(0,0,0,.1);
-		-moz-box-shadow: 0 0 9px 0 rgba(0,0,0,.1);
-		-ms-box-shadow: 0 0 9px 0 rgba(0,0,0,.1);
-		box-shadow: 0 0 9px 0 rgba(0,0,0,.1);
-	}
-	.option-toggle i {
-		top: 2px;
-		position: relative;
-	}
-	.option-toggle:hover, .option-toggle:focus, .option-toggle:active {
-		color:  #fff;
-		text-decoration: none;
-		outline: none;
-	}
-	</style>
-	<!-- End demo purposes only -->
-
-
-	<!-- Modernizr JS -->
-	<script src="js/modernizr-2.6.2.min.js"></script>
-	<!-- FOR IE9 below -->
-	<!--[if lt IE 9]>
-	<script src="js/respond.min.js"></script>
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <!-- Flexslider -->
+    <link rel="stylesheet" href="assets/css/flexslider.css">
+    <!-- Icomoon Icon Fonts-->
+    <link rel="stylesheet" href="assets/css/icomoon.css">
+    <!-- Magnific Popup -->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <!-- Bootstrap  -->
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <!-- Main theme -->
+    <link rel="stylesheet" href="assets/css/style.css">  
+    <!-- Modernizr JS -->
+    <script src="assets/js/modernizr-2.6.2.min.js"></script>
+    <!-- FOR IE9 below -->
+    <!--[if lt IE 9]>
+	<script src="assets/js/respond.min.js"></script>
 	<![endif]-->
 
-	</head>
+</head>
 
+<body>
 
-	<!-- 
-		INFO:
-		Add 'boxed' class to body element to make the layout as boxed style.
-		Example: 
-		<body class="boxed">	
-	-->
-	<body>
+    <!-- Loader -->
+    <div class="vpdweb-loader"></div>
 
-	<!-- Loader -->
-	<div class="vpdweb-loader"></div>
-	
-	<div id="vpdweb-page">
-		<section id="vpdweb-header">
-			<div class="container">
-				<nav role="navigation">
-					<ul class="pull-left left-menu">
-						<li class="active"><a href="about.html">About</a></li>
-						<li><a href="tour.html">Tour</a></li>
-						<li><a href="pricing.html">Pricing</a></li>
-					</ul>
-					<h1 id="vpdweb-logo"><a href="index.html">guide<span>.</span></a></h1>
-					<ul class="pull-right right-menu">
-						<li><a href="#">Login</a></li>
-						<li class="vpdweb-cta-btn"><a href="#">Sign up</a></li>
-					</ul>
-				</nav>
-			</div>
-		</section>
-		<!-- #vpdweb-header -->
-
-		<section id="vpdweb-hero" class="no-js-fullheight" style="background-image: url(images/full_image_1.jpg);" data-next="yes">
+    <div id="vpdweb-page">
+        <section id="vpdweb-header">
+            <div class="container">
+                <nav role="navigation">
+                    <h1 id="vpdweb-logo"><a href="index.html">VPDWEB</a></h1>
+                    <ul class="pull-right right-menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li class="vpdweb-cta-btn"><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+        <!-- #vpdweb-header -->
+		<section id="vpdweb-hero" class="no-js-fullheight" style="background-image: url(assets/images/services_bg.jpg);" data-next="yes">
 			<div class="vpdweb-overlay"></div>
 			<div class="container">
 				<div class="vpdweb-intro no-js-fullheight">
 					<div class="vpdweb-intro-text">
-						<!-- 
-							INFO:
-							Change the class to 'vpdweb-right-position' or 'vpdweb-center-position' to change the layout position
-							Example:
-							<div class="vpdweb-right-position">
-						-->
-						<div class="vpdweb-center-position">
-							<h2>Who We Are</h2>
-							<h3>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there.</h3>
-							
+									<div class="vpdweb-center-position">
+							<h2>About Us</h2>
+							<h3>Learn a little more about us and our work. It's brief but, hopefully, informative.</h3>
+
 						</div>
 					</div>
 				</div>
 			</div>
 			<div class="vpdweb-learn-more ">
 				<a href="#" class="scroll-btn">
-					<span class="text">Explore more about us</span>
 					<span class="arrow"><i class="icon-chevron-down"></i></span>
 				</a>
 			</div>
 		</section>
-		<!-- END #vpdweb-hero -->
 
-
-		<div id="vpdweb-about">
-			<div class="container">
-				<div class="row row-bottom-padded-lg">
-					<div class="col-md-6">
-						<figure>
-							<img src="images/img_3.jpg" alt="Free HTML5 Bootstrap Template by FREEHTML5.co" class="img-responsive">
-						</figure>
-					</div>
-					<div class="col-md-6">
-						<div class="vpdweb-label ">Who We Are</div>
-						<h2 class="vpdweb-lead ">We Are Thinkers, Innovators, Scientist, etc.</h2>
-						<p class="vpdweb-sub-lead ">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-					</div>
-				</div>
-
-				<div class="row">
-					<div class="col-md-4 col-sm-6 col-xs-12">
-						<div class="vpdweb-person">	
-							<figure>
-								<img src="images/person5.jpg" alt="Free HTML5 Bootstrap Template by FREEHTML5.co" class="img-responsive">
-							</figure>
-							<h3 class="vpdweb-name ">Jeff Wardrobe</h3>
-							<h4 class="vpdweb-designation ">Founder, Web Developer</h4>
-							<p class="vpdweb-bio ">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-							<ul class="vpdweb-social">
-								<li><a href="#"><i class="icon-twitter"></i></a></li>
-								<li><a href="#"><i class="icon-dribbble"></i></a></li>
-								<li><a href="#"><i class="icon-globe"></i></a></li>
-							</ul>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-6 col-xs-12">
-						<div class="vpdweb-person">
-							<figure>
-								<img src="images/person6.jpg" alt="Free HTML5 Bootstrap Template by FREEHTML5.co" class="img-responsive">
-							</figure>
-							<h3 class="vpdweb-name ">Jean Smith</h3>
-							<h4 class="vpdweb-designation ">Founder, Creative Director</h4>
-							<p class="vpdweb-bio ">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-							<ul class="vpdweb-social">
-								<li><a href="#"><i class="icon-twitter"></i></a></li>
-								<li><a href="#"><i class="icon-github"></i></a></li>
-								<li><a href="#"><i class="icon-globe"></i></a></li>
-							</ul>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-6 col-xs-12">
-						<div class="vpdweb-person">
-							<figure>
-								<img src="images/person7.jpg" alt="Free HTML5 Bootstrap Template by FREEHTML5.co" class="img-responsive">
-							</figure>
-							<h3 class="vpdweb-name ">Ruben Lakewood</h3>
-							<h4 class="vpdweb-designation ">UI Designer &amp; Animator</h4>
-							<p class="vpdweb-bio ">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-							<ul class="vpdweb-social">
-								<li><a href="#"><i class="icon-twitter"></i></a></li>
-								<li><a href="#"><i class="icon-dribbble"></i></a></li>
-								<li><a href="#"><i class="icon-globe"></i></a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<!-- END #vpdweb-about -->
-
-
-		<div id="vpdweb-info">
+		<section id="vpdweb-about-section">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-6">
-						<figure>
-							<img src="images/img_4.jpg" alt="Free HTML5 Bootstrap Template by FREEHTML5.co" class="img-responsive">
-						</figure>
-					</div>
-					<div class="col-md-6">
-						<div class="vpdweb-label ">More about web</div>
-						<h2 class="vpdweb-lead ">Why Web Design?</h2>
-						<p class="vpdweb-sub-lead ">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		
-		
-		<section id="vpdweb-testimonials">
-			<div class="container">
-				<div class="row row-bottom-padded-sm">
-					<div class="col-md-6 col-md-offset-3 text-center">
-						<div class="vpdweb-label ">Testimonials</div>
-						<h2 class="vpdweb-lead ">Join the 1 Million Users using Our Products </h2>
+					<div class="col-md-12">
+						<h2>The short version</h2>
+                                    <p>We are a small team of people good at designing and crafting things like logos, business cards, brochures, posters, flyers - and the mother of them all: websites! We also offer SEO and content marketing services. The general purpose of this website is to show you what we do and how, if you sign up for our services, we can help your business grow. But this section isn't about the services we offer. There's the <a href="services.html">services</a> section for that. This is about us, so read on!</p>
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-md-8 col-md-offset-2 text-center ">
-						<div class="flexslider">
-					  		<ul class="slides">
-							   <li>
-							      <blockquote>
-							      	<p>&ldquo;Creativity is just connecting things. When you ask creative people how they did something, they feel a little guilty because they didn’t really do it, they just saw something. It seemed obvious to them after a while.&rdquo;</p>
-							      	<p><cite>&mdash; Steve Jobs</cite></p>
-							      </blockquote>
-							   </li>
-							   <li>
-							    	<blockquote>
-							      	<p>&ldquo;I think design would be better if designers were much more skeptical about its applications. If you believe in the potency of your craft, where you choose to dole it out is not something to take lightly.&rdquo;</p>
-							      	<p><cite>&mdash; Frank Chimero</cite></p>
-							      </blockquote>
-							   </li>
-							   <li>
-							    	<blockquote>
-							      	<p>&ldquo;Design must be functional and functionality must be translated into visual aesthetics, without any reliance on gimmicks that have to be explained.&rdquo;</p>
-							      	<p><cite>&mdash; Ferdinand A. Porsche</cite></p>
-							      </blockquote>
-							   </li>
-							</ul>
-						</div>
-						<div class="flexslider-controls">
-						   <ol class="flex-control-nav">
-						      <li><img src="images/person4.jpg" alt="Free HTML5 Bootstrap Template by FREEHTML5.co"></li>
-						      <li><img src="images/person2.jpg" alt="Free HTML5 Bootstrap Template by FREEHTML5.co"></li>
-						      <li><img src="images/person3.jpg" alt="Free HTML5 Bootstrap Template by FREEHTML5.co"></li>
-						   </ol>
-						</div>
+					<div class="col-md-12">
+						<h2>The long version</h2>
+						<p>We are a small group of designers and developers committed to creating carefully designed products that are intended to put our clients ahead of their competition. We create things that clients can use to promote their brand, products and services both on the web and in print.</p>
+						<p>Each one of us has their own area of expertise but we all share a passion for one thing: design. In a world where businesses are striving to have a unique aspect that gives them the upper hand, design plays a very important role. People respond positively to things that are nice to look at and easy to use. It's that simple. If you have a website that is pleasing to the eyes and easy to use then there is a high chance that it will do what it was created to do, whether it's to promote your personal image or that of your business.</p>
+						<h3 id="core-belief">Our core belief</h3>
+						<p>We have a passion for what we do. It's not all about the money. We believe that our clients' needs - no matter how big or small - deserve our full attention. Whether we're tasked with designing a simple logo or designing and developing a full-blown e-commerce website that is SEO-ready and equipped with the latest analytics capabilities, our goal is not just to finish the work on time but to build something that actually does what it's meant to do, is good to look at and, on top of that, easy to use, update and maintain. This, you'll find, gives you enough time and energy to focus on what truly matters: your products, services and your clients.</p>
+						<h3>How we work</h3>
+						<p>All the jobs we do are contract-based. When a client expresses an interest in having something designed, - be it a logo, poster, business card, website, or any other item in our services section - he or she is issued with a legally binding contract document (an example of which you can find <a href="samplecontract.pdf">here</a>). Now this might be a turn off to some but there's a good reason why we do it this way. Entering into a legally binding business contract has two main advantages:</p>
+						<ul>
+						<li>It scares off jokers and shows how serious we are about the work we do. This helps reel in serious clients.</li>
+						<li>It makes sure that we deliver our products on time - unless there's a natural disaster like a full on zombie apocalypse - , get paid on time and, most importantly, keeps both parties (designer and client) happy.</li>
+						</ul>
+						<p>All details about the jobs we do are in every contract we issue. These details are things like the nature of the job itself, the relationship between - and what's expected of - both designer and client, fixed or estimated time of delivery and payment, costs, terms and conditions of the contract and consequences or penalties for not respecting those terms and conditions, and lots of other goodies depending on the type of job in question.</p>
+						<p>That being said, you'll find that there are very smooth transitions between each step of the work process. What stages am I referring to here? I'll provide brief descriptions of the steps we take in the design and development of a website if you're interested. This is purely for information purposes.</p>
+
+						<p>
+						<a href="#info-well" class="btn btn-info" role="button" data-toggle="collapse">See steps</a>
+						<div class="collapse" id="info-well">
+							<div class="well well-lg">
+								<h4>Stages in the design and development of a website</h4>
+								<ol>
+								<li>
+								<p>Initial meetup: This is where we define the project itself, get a clear picture of what's required, who the website is targeting, resources required, the timeline, budget, etc.</p>
+								</li>
+								<li>
+								<p>Planning: This is where we do things like research and conceptualization of ideas using sketches, wireframes and mockups.</p>
+								</li>
+								<li>
+								<p>Design: This is the most important step in the whole process. Basically it's where the success or failure of the entire project hinges on. A well designed website attracts visitors and keeps them interested long enough to hopefully make a purchase or take a survey or do whatever you want them to. This is also where we fully use our creative super powers ;)</p>
+								</li>
+								<li>
+								<p>Development: This is the logical next step after the design stage. It's where we take the website's separate designs and turn them into real parts that we then fuse together into a cohesive working whole. </p>
+								</li>
+								<li>
+								<p>Testing and launch: We do not release a website into the wild until it has fully passed some tests that ensure it's going to survive and thrive out there. This is also where we teach the client how to use the website, that is, add, remove or update content and perform basic troubleshooting techniques in case problems arise.</p>
+								</li>
+								<li>
+								<p>Maintenance: Regular maintenance is key to the success of any website out there in the World Wide Web. Like biological organisms most websites evolve into bigger, more complex things. This usually means that they are developing as intended. It also means that they become more prone to errors. Left unattended, websites can break down and incur a lot of costs trying to get them working again. That's why regular maintenance is required to help you save money, and avoid premature hair loss or early death in the long run :)</p>
+								</li>
+								</ol>
+							</div>
+							</div>
+						</p>
+
+						<h3>Our promise to you</h3>
+						<p>Like we've said before, we give the same level of seriousness to every job we do, no matter how big or small. We always make sure that we deliver what we set out to deliver, come rain or shine but not, of course, a zombie apocalypse - it'd be kind of hard trying to design a masterpiece of a logo with a zombie breathing and banging hard on our door... </p>
+						<p>Anyway, apocalyptic thoughts aside, the simple fact of the matter is this: give us a job to do and we'll deliver, as long as you play your part. So, why not click on this nice big button down here to try us out?</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="vpdweb-btn-action text-center"><a href="contact.html" class="btn btn-primary btn-cta text-center">Let's work together</a></div>
 					</div>
 				</div>
 			</div>
 		</section>
-		<!-- END #vpdweb-testimonials -->
 
-		<section id="vpdweb-subscribe">
-			<div class="container">
-		
-				<h3><label for="email">Subscribe to our newsletter</label></h3>
-				<form action="#" method="post">
-					<i class="vpdweb-icon icon-paper-plane"></i>
-					<input type="email" class="form-control" placeholder="Enter your email" id="email" name="email">
-					<input type="submit" value="Send" class="btn btn-primary">
-				</form>
+        <section id="vpdweb-testimonials">
+            <div class="container">
+                <div class="row row-bottom-padded-sm">
+                    <div class="col-md-6 col-md-offset-3 text-center">
+                        <h2 class="vpdweb-lead ">What clients say</h2>
+                        <p class="vpdweb-sub-lead">We work around the clock to make sure clients get what they want on time and at an affordable price. Here's what some of our clients say about us and our services. Click on a client's photo to read their testimonial.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2 text-center ">
+                        <div class="flexslider-controls">
+                            <ol class="flex-control-nav">
+                                <li><img src="assets/images/jezz.jpg" alt="Jezz Mnjala"></li>
+                                <li><img src="assets/images/raymond.jpg" alt="Raymond Mughendi"></li>
+                                <li><img src="assets/images/kepher.jpg" alt="Kepher Luhombo"></li>
+                                <li><img src="assets/images/ted.jpg" alt="Steve Ted Jr."></li>
+                                <li><img src="assets/images/hebron.jpg" alt="Hebron Nyange"></li>
+                            </ol>
+                        </div>
+                        <div class="flexslider">
+                            <ul class="slides">
+                                <li>
+                                    <blockquote>
+                                        <p>Well, I was referred to VPDWEB by a friend who had good things to say about their services. But I just wanted a simple logo done. I called them up, we met, talked about a side project and a few days later I had
+                                            myself a beautiful, simple logo which looked good in colour as it did in black and white. Since then these are my go to guys for most of my design stuff.</p>
+                                        <p><cite>&mdash; Jezz Mnjala</cite></p>
+                                        <ul class="vpdweb-social">
+                                            <!--<li><a href="#"><i class="icon-facebook"></i></a></li>-->
+                                            <li><a href="mailto:jmnjala@gmail.com"><i class="icon-envelope"></i></a></li>
+                                            <li><a href="http://linkedin.com/in/jezreelmnjala" target="_blank"><i class="icon-linkedin"></i></a></li>
+                                        </ul>
+                                    </blockquote>
+                                </li>
+                                <li>
+                                    <blockquote>
+                                        <p>I'm the Manager at St Thomas Church Ufanisi Training Institute in Kilifi, North Coast. I met Victor through a friend while I was looking for someone to build a website for our college. He quickly mocked up a series
+                                            of designs in Photoshop over several meetings we had in the following days. I liked the designs and he went on to build the website, integrating it into Wordpress so that we could be doing updates ourselves.
+                                            He made the whole process seem so much simpler and quicker than I had thought initially.</p>
+                                        <p><cite>&mdash; Raymond Mghendi</cite></p>
+                                        <ul class="vpdweb-social">
+                                            <li><a href="mailto:raymwaka007@yahoo.com"><i class="icon-envelope"></i></a></li>
+                                            <li><a href="http://linkedin.com/in/raymond-mghendi-1b08466a" target="_blank"><i class="icon-linkedin"></i></a></li>
+                                        </ul>
 
-			</div>
-		</section>
-		<!-- END #vpdweb-subscribe -->
+                                    </blockquote>
+                                </li>
+                                <li>
+                                    <blockquote>
+                                        <p>I'm the Minister at a small church in Shimoni, South Coast. VPDWEB have been very invaluable in helping me design a series of advertisement material for church functions. The great thing about our relationship is
+                                            that we rarely have to meet face to face. I simply call them up, tell them what I need, and a few email attachments later we settle on a final design which they quickly print, package and send over by post.
+                                            It's that simple. Their rates are also affordable compared to the people I've dealt with in the past.</p>
+                                        <p><cite>&mdash; Kepher Luhombo</cite></p>
+                                        <ul class="vpdweb-social">
+                                            <li><a href="http://www.facebook.com/kepher.luhombo" target="_blank"><i class="icon-facebook"></i></a></li>
+                                            <!--<li><a href="#"><i class="icon-envelope"></i></a></li>-->
+                                            <!--<li><a href="#"><i class="icon-skype"></i></a></li>-->
+                                        </ul>
+                                    </blockquote>
+                                </li>
+                                <li>
+                                    <blockquote>
+                                        <p>I've known Victor for the better part of five years and in that time he's designed for me a business card, a logo and advertisement flyers for my farming business. I've been very impressed by the nature of his work
+                                            &mdash; the level of commitment, professionalism and creativity he shows are things which I find lacking in most people in the design business. I highly recommend his services to anyone who values quality work.</p>
+                                        <p><cite>&mdash; Steve Ted Jr.</cite></p>
+                                        <ul class="vpdweb-social">
+                                            <li><a href="http://www.facebook.com/teddy.kotho" target="_blank"><i class="icon-facebook"></i></a></li>
+                                            <li><a href="mailto:teddykotho@yahoo.com"><i class="icon-envelope"></i></a></li>
+                                        </ul>
+                                    </blockquote>
+                                </li>
+                                <li>
+                                    <blockquote>
+                                        <p>I approached Victor with an offer to write me a web scraper that could collect specific job vacancy advertisements from several online sites here in the country and give me the results in a neat way that I could
+                                            quickly digest. He said yes and wrote me a program in <em>Python</em>, installed it on my laptop and it did more than what I expected. I could filter results by salary, location, or whatever criteria was available.
+                                            This was an invaluable tool. I have a job now but my friends use it from time to time. Sometimes I fire it up just for fun to see the results the program comes up with. Sometimes I don't get results on some
+                                            websites but I guess it's because it needs updates or something as websites tend to change over time from what I understand.</p>
+                                        <p><cite>&mdash; Hebron Nyange</cite></p>
+                                        <ul class="vpdweb-social">
+                                            <li><a href="http://www.facebook.com/hebron.nyange" target="_blank"><i class="icon-facebook"></i></a></li>
+                                            <li><a href="mailto:hebron9491@gmail.com"><i class="icon-envelope"></i></a></li>
+                                        </ul>
+                                    </blockquote>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- END #vpdweb-testimonials -->
 
-		<footer id="vpdweb-footer">
-			<div class="container">
-				<div class="row row-bottom-padded-md">
-					<div class="col-md-3 col-sm-6 col-xs-12 ">
-						<div class="vpdweb-footer-widget">
-							<h3>Company</h3>
-							<ul class="vpdweb-links">
-								<li><a href="#">About Us</a></li>
-								<li><a href="#">Careers</a></li>
-								<li><a href="#">Feature Tour</a></li>
-								<li><a href="#">Pricing</a></li>
-								<li><a href="#">Team</a></li>
-							</ul>
-						</div>
-					</div>
+        <section id="vpdweb-subscribe">
+            <div class="container">
 
-					<div class="col-md-3 col-sm-6 col-xs-12 ">
-						<div class="vpdweb-footer-widget">
-							<h3>Support</h3>
-							<ul class="vpdweb-links">
-								<li><a href="#">Knowledge Base</a></li>
-								<li><a href="#">24/7 Call Support</a></li>
-								<li><a href="#">Video Demos</a></li>
-								<li><a href="#">Terms of Use</a></li>
-								<li><a href="#">Privacy Policy</a></li>
-							</ul>
-						</div>
-					</div>
+                <h3><label for="email">Get price quotes for all our services</label></h3>
+                <form action="#" method="post">
+                    <i class="vpdweb-icon icon-paper-plane"></i>
+                    <input type="email" class="form-control" placeholder="Enter your email" id="email" name="email">
+                    <input type="submit" value="Send" class="btn btn-primary">
+                </form>
 
-					<div class="col-md-3 col-sm-6 col-xs-12 ">
-						<div class="vpdweb-footer-widget">
-							<h3>Contact Us</h3>
-							<p>
-								<a href="mailto:info@freehtml5.co">info@freehtml5.co</a> <br>
-								198 West 21th Street, <br>
-								Suite 721 New York NY 10016 <br>
-								<a href="tel:+123456789">+12 34  5677 89</a>
-							</p>
-						</div>
-					</div>
+            </div>
+        </section>
+        <!-- END #vpdweb-subscribe -->
 
-					<div class="col-md-3 col-sm-6 col-xs-12 ">
-						<div class="vpdweb-footer-widget">
-							<h3>Follow Us</h3>
-							<ul class="vpdweb-social">
-								<li><a href="#"><i class="icon-twitter"></i></a></li>
-								<li><a href="#"><i class="icon-facebook"></i></a></li>
-								<li><a href="#"><i class="icon-google-plus"></i></a></li>
-								<li><a href="#"><i class="icon-instagram"></i></a></li>
-								<li><a href="#"><i class="icon-youtube-play"></i></a></li>
-							</ul>
-						</div>
-					</div>
+        <footer id="vpdweb-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="vpdweb-footer-widget">
+                            <p>Follow us</p>
+                            <ul class="vpdweb-social">
+                                <li><a href="http://twitter.com/vpdweb" target="_blank"><i class="icon-twitter"></i></a></li>
+                                <li><a href="http://www.facebook.com/Vpdweb-1297264000352460/" target="_blank"><i class="icon-facebook"></i></a></li>
+                                <li><a href="http://www.instagram.com/vpdweb/" target="_blank"><i class="icon-instagram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-				</div>
-				
-			</div>
-			<div class="vpdweb-copyright ">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-12">
-							<p class="vpdweb-left"><small>&copy; 2016 <a href="index.html">Guide</a> free html5. All Rights Reserved.</small></p>
-							<p class="vpdweb-right"><small class="vpdweb-right">Designed by <a href="http://freehtml5.co" target="_blank">FREEHTML5.co</a> Demo Images: <a href="http://unsplash.com" target="_blank">Unsplash</a></small></p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</footer>
-		<!-- END #vpdweb-footer -->
-	</div>
-	<!-- END #vpdweb-page -->
-	
-	<!-- For demo purposes Only ( You may delete this anytime :-) -->
-	<div id="colour-variations">
-		<a class="option-toggle"><i class="icon-gear"></i></a>
-		<h3>Preset Colors</h3>
-		<ul>
-			<li><a href="javascript: void(0);" data-theme="style"></a></li>
-			<li><a href="javascript: void(0);" data-theme="red"></a></li>
-			<li><a href="javascript: void(0);" data-theme="turquoise"></a></li>
-			<li><a href="javascript: void(0);" data-theme="blue"></a></li>
-			<li><a href="javascript: void(0);" data-theme="orange"></a></li>
-			<li><a href="javascript: void(0);" data-theme="yellow"></a></li>
-			<li><a href="javascript: void(0);" data-theme="pink"></a></li>
-			<li><a href="javascript: void(0);" data-theme="purple"></a></li>
-		</ul>
-		<a href="#" data-layout="boxed">Boxed</a>
-		<a href="#" data-layout="wide">Wide</a>
-	</div>
-	<!-- End demo purposes only -->
+            <div class="vpdweb-copyright ">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p class="vpdweb-left"><small>&copy; 2017 <a href="index.html">VPDWEB&nbsp;&nbsp; </a></small></p>
+                            <p class="vpdweb-right"><small class="vpdweb-right">Designed by <a href="http://vpdweb.com" target="_blank">VPDWEB</a></small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- END #vpdweb-footer -->
+    </div>
+    <!-- END #vpdweb-page -->
 
-	
-	<!-- jQuery -->
-	<script src="js/jquery.min.js"></script>
-	<!-- jQuery Easing -->
-	<script src="js/jquery.easing.1.3.js"></script>
-	<!-- Bootstrap -->
-	<script src="js/bootstrap.min.js"></script>
-	<!-- Waypoints -->
-	<script src="js/jquery.waypoints.min.js"></script>
-	<!-- Flexslider -->
-	<script src="js/jquery.flexslider-min.js"></script>
-	<!-- Magnific Popup -->
-	<script src="js/jquery.magnific-popup.min.js"></script>
-	<script src="js/magnific-popup-options.js"></script>
+    <!-- jQuery -->
+    <script src="assets/js/jquery.min.js"></script>
+    <!-- jQuery Easing -->
+    <script src="assets/js/jquery.easing.1.3.js"></script>
+    <!-- Bootstrap -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- Waypoints -->
+    <script src="assets/js/jquery.waypoints.min.js"></script>
+    <!-- Flexslider -->
+    <script src="assets/js/jquery.flexslider-min.js"></script>
+    <!-- Magnific Popup -->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/magnific-popup-options.js"></script>
+    <!-- Main js file -->
+    <script src="assets/js/main.js"></script>
+ 
 
-	<!-- For demo purposes only styleswitcher ( You may delete this anytime ) -->
-	<script src="js/jquery.style.switcher.js"></script>
-	<script>
-		$(function(){
-			$('#colour-variations ul').styleSwitcher({
-				defaultThemeId: 'theme-switch',
-				hasPreview: false,
-				cookie: {
-		          	expires: 30,
-		          	isManagingLoad: true
-		      	}
-			});	
-			$('.option-toggle').click(function() {
-				$('#colour-variations').toggleClass('sleep');
-			});
-		});
-	</script>
-	<!-- End demo purposes only -->
+</body>
 
-	<!-- Main JS (Do not remove) -->
-	<script src="js/main.js"></script>
-
-	<!-- 
-	INFO:
-	jQuery Cookie for Demo Purposes Only. 
-	The code below is to toggle the layout to boxed or wide 
-	-->
-	<script src="js/jquery.cookie.js"></script>
-	<script>
-		$(function(){
-
-			if ( $.cookie('layoutCookie') != '' ) {
-				$('body').addClass($.cookie('layoutCookie'));
-			}
-
-			$('a[data-layout="boxed"]').click(function(event){
-				event.preventDefault();
-				$.cookie('layoutCookie', 'boxed', { expires: 7, path: '/'});
-				$('body').addClass($.cookie('layoutCookie')); // the value is boxed.
-			});
-
-			$('a[data-layout="wide"]').click(function(event){
-				event.preventDefault();
-				$('body').removeClass($.cookie('layoutCookie')); // the value is boxed.
-				$.removeCookie('layoutCookie', { path: '/' }); // remove the value of our cookie 'layoutCookie'
-			});
-		});
-	</script>
-
-	</body>
 </html>
-

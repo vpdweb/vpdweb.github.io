@@ -11,8 +11,6 @@ jsconfig.json
 # End of https://www.gitignore.io/api/code
 
 main_tpl/
-services_tpl/
-portfolio_tpl/
 **/sass
 *.py
 .*
