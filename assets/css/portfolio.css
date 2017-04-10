@@ -247,5 +247,31 @@
     .vpdweb-folio-details {
         float: none;
         width: 100%;
+        padding: 0 20px 0 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .vpdweb-folio-expander-inner {
+        padding: 30px 20px;
+    }
+    .vpdweb-folio-details {
+        margin-top: 20px;
+        padding: 0 20px;
+    }
+    .vpdweb-folio-details p {
+        margin-bottom: 0.2em;
+    }
+    .vpdweb-folio-expander h3 {
+        font-size: 30px;
+    }
+    .vpdweb-folio-expander h5 {
+        font-size: 16px;
+    }
+    .vpdweb-folio-expander p {
+        font-size: 14px;
+    }
+    .vpdweb-folio-expander a {
+        font-size: 12px;
     }
 }
