@@ -191,11 +191,11 @@
     }
     33% {
         background: #ccc;
-        box-shadow: 0 0 1px #ccc, 15px 30px 1px #ccc, -15px 30px 1px #ddd;
+        box-shadow: 0 0 1px #ccc, 15px 30px 1px #ccc, -15px 30px 1px #505050;
     }
     66% {
         background: #ccc;
-        box-shadow: 0 0 1px #ccc, 15px 30px 1px #ddd, -15px 30px 1px #ccc;
+        box-shadow: 0 0 1px #ccc, 15px 30px 1px #505050, -15px 30px 1px #ccc;
     }
 }
 
@@ -205,11 +205,11 @@
     }
     33% {
         background: #ccc;
-        box-shadow: 0 0 1px #ccc, 15px 30px 1px #ccc, -15px 30px 1px #ddd;
+        box-shadow: 0 0 1px #ccc, 15px 30px 1px #ccc, -15px 30px 1px #505050;
     }
     66% {
         background: #ccc;
-        box-shadow: 0 0 1px #ccc, 15px 30px 1px #ddd, -15px 30px 1px #ccc;
+        box-shadow: 0 0 1px #ccc, 15px 30px 1px #505050, -15px 30px 1px #ccc;
     }
 }
 
@@ -219,11 +219,11 @@
     }
     33% {
         background: #ccc;
-        box-shadow: 0 0 1px #ccc, 15px 30px 1px #ccc, -15px 30px 1px #ddd;
+        box-shadow: 0 0 1px #ccc, 15px 30px 1px #ccc, -15px 30px 1px #505050;
     }
     66% {
         background: #ccc;
-        box-shadow: 0 0 1px #ccc, 15px 30px 1px #ddd, -15px 30px 1px #ccc;
+        box-shadow: 0 0 1px #ccc, 15px 30px 1px #505050, -15px 30px 1px #ccc;
     }
 }
 
