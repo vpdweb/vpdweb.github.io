@@ -187,7 +187,7 @@
 
 @-webkit-keyframes loader {
     0% {
-        background: #ddd;
+        background: #505050;
     }
     33% {
         background: #ccc;
@@ -201,7 +201,7 @@
 
 @-moz-keyframes loader {
     0% {
-        background: #ddd;
+        background: #505050;
     }
     33% {
         background: #ccc;
@@ -215,7 +215,7 @@
 
 @keyframes loader {
     0% {
-        background: #ddd;
+        background: #505050;
     }
     33% {
         background: #ccc;
