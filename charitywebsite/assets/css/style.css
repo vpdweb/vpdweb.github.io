@@ -7,46 +7,7 @@
 
   * Project:	Charity Website
   * Version:	1.0
-    * Table of contens:
-    + Header / .header
-    + Site / .site
-    + Center / .center
-    + Main / .main
-    + Authorization / .auth
-    + Banner / .banner
-    + Breadcrumbs / .breadcrumbs
-    + Contacts / .contacts
-    + Comment / .comment
-    + Dropdown / .dropdown
-    + Scroll Up Button / .scrollup
-    + Social / .social
-    + FAQ / .faq
-    + Footer / .footer
-    + Listing / .listing
-    + Navbar / .navabar
-    + Address / .address
-    + Article / .article
-    + Feature / .feature
-    + Form / .form
-    + Map / .map
-    + Nav / .nav
-    + Partners / .partners
-    + Review / .review
-    + Search / .search
-    + Slider / .slider
-    + Subscribe / .subscribe
-    + Worker / .worker
-    + Article categories / .article-categories
-    + Gosubmit / .gosubmit
-  * Vendor styles:
-    + Colorbox Core / #colorbox
-    + Bonsai / .bonsai
-    + Leaflet / .leaflet
-    + PhotoSwipe / .pswp
-    + RangeSlider / .irs
-    + Slick-slider / .slick-slider
-    + Pnotify / .ui-pnotify
-
+    
   @mixin =============================================================*/
 
 @-webkit-keyframes bounce {
@@ -5053,13 +5014,6 @@ input[type=checkbox].in-checkbox:indeterminate + label:before {
   padding: 6px 5px;
 }
 
-.button__default_donate {
-  border: 2px solid #fff;
-  border-radius: 10px;
-  padding: 4px 0;
-  color: #fff;
-}
-
 .button__default:hover,
 .button__default:focus,
 .button__default.active {
@@ -5130,6 +5084,21 @@ input[type=checkbox].in-checkbox:indeterminate + label:before {
   animation: moveUp 0.5s;
   z-index: 1;
   color: #00bbaa;
+}
+
+.button__default_donate {
+  border: 2px solid #fff;
+  border-radius: 10px;
+  padding: 4px 0;
+  color: #fff;
+}
+
+.button__default_donate:hover,
+.button__default_donate:focus,
+.button__default_donate.active {
+  color: #fff;
+  text-decoration: none;
+  outline: none;
 }
 
 .button--loading-circle-o-notch .button__default.button--loading:before {
