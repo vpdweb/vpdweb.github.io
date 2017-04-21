@@ -2,9 +2,9 @@
   Main Theme Template for Charity Website.
   Author: vpdweb.com
 
-  Strictly for demonstration purposes.
+  Strictly for demonstration purposes. 
 
-  Contains bits and pieces of code from my previous HTML templates, following the DIY principle
+  Contains bits and pieces of code from my previous HTML templates, following the DIY principle.
 -->
 
 <!DOCTYPE html>
@@ -396,8 +396,10 @@
   </svg>
   <!-- End SVG icon definitions -->
 
-  <!-- TOP LEVEL CONTIANER -->
+  <!-- TOP LEVEL CONTAINER -->
   <div class="box js-box">
+
+    <!-- TOP BAR -->
     <header class="header header--brand">
       <div class="container">
         <div class="header__row">
@@ -428,7 +430,7 @@
       </div>
     </header>
 
-    <!-- SITE NAVIGATION-->
+    <!-- MAIN SITE NAVIGATION-->
     <div id="header-nav-offset"></div>
     <nav id="header-nav" class="navbar navbar--header">
       <div class="container">
@@ -488,9 +490,10 @@
       </div>
     </nav>
 
-    <!-- CONTENT AREA-->
+    <!-- MAIN CONTENT AREA: sections organised into components / widgets for easy management -->
     <div class="site-wrap js-site-wrap">
 
+      <!-- SLIDER COMPONENT -->
       <div class="widget js-widget">
         <div class="widget__content">
           <div class="banner js-banner-slider banner--slider">
@@ -522,6 +525,7 @@
         </div>
       </div>
 
+       <!-- TWO-COLUMN FEATURE COMPONENT: Image on left side -->
       <div class="widget js-widget">
         <div class="widget__content">
           <section class="feature">
@@ -589,6 +593,7 @@
         </div>
       </div>
 
+      <!-- TWO-COLUMN FEATURE COMPONENT: Image on right side -->
       <div class="widget js-widget">
         <div class="widget__content">
           <section class="feature">
@@ -656,6 +661,7 @@
         </div>
       </div>
 
+      <!-- ORGANISATION MEMBERS COMPONENT -->
       <div class="widget js-widget widget--landing widget--gray">
         <div class="widget__header">
           <h2 class="widget__title">Our Members</h2>
@@ -753,6 +759,7 @@
         </div>
       </div>
 
+      <!-- ORGANISATION PROJECT COMPONENT -->
       <div class="widget js-widget widget--landing">
         <div class="widget__header">
           <h2 class="widget__title"><span class="title-thin">Our</span> Projects</h2>
@@ -870,6 +877,7 @@
         </div>
       </div>
 
+      <!-- FEATURED NEWS/BLOG ARTICLES COMPONENT -->
       <div class="widget js-widget widget--landing widget--gray">
         <div class="widget__header">
           <h2 class="widget__title">News & Blog</h2>
@@ -917,6 +925,8 @@
           <div class="widget__footer"><a href="#" class="widget__more"> More articles...</a></div>
         </div>
       </div>
+
+      <!-- TESTIMONIALS SLIDE COMPONENT -->
       <div class="widget js-widget widget--landing">
         <div class="widget__header">
           <h2 class="widget__title">Testimonials</h2>
@@ -1000,6 +1010,7 @@
         </div>
       </div>
 
+      <!-- ORGANIZATION PARTNERS SLIDE COMPONENT -->
       <div class="widget js-widget widget--landing widget--gray">
         <div class="widget__header">
           <h2 class="widget__title"><span class="title-thin">Our</span> Partners</h2>
@@ -1031,6 +1042,7 @@
         </div>
       </div>
 
+      <!-- NEWSLETTER SUBSCRIPTION FORM -->
       <div class="widget js-widget">
         <div class="widget__content">
 
@@ -1047,6 +1059,7 @@
         </div>
       </div>
 
+      <!-- FOOTER -->
       <footer class="footer">
         <div class="container">
           <div class="footer__wrap">
@@ -1135,8 +1148,11 @@
       </footer>
     </div>
   </div>
+
+  <!-- SCROLL UP BUTTON: revealed on page scroll down limit , removed on page scroll up limit -->
   <button type="button" class="scrollup js-scrollup"></button>
 
+  <!-- JS FILES. Google maps API libraries are needed to render certain page elements -->
   <script type="text/javascript" src="http://maps.google.com/maps/api/js?libraries=places,drawing,geometry"></script>
   <script type="text/javascript" src="assets/js/vendor.js"></script>
   <script type="text/javascript" src="assets/js/app.js"></script>
