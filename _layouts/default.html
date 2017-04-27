@@ -95,13 +95,13 @@
     <!-- Magnific Popup -->
     <script src="assets/js/jquery.magnific-popup.min.js"></script>
     <script src="assets/js/magnific-popup-options.js"></script>
+    {% if page.title == "Portfolio" %}
+    <script src="assets/js/grid.js"></script>
+    {% endif %}
     <!-- Parsely js form validator -->
     <script src="assets/js/parsley.min.js"></script>
     <!-- Main js file -->
     <script src="assets/js/main.js"></script>
-    {% if page.title == "Portfolio" %}
-    <script src="assets/js/grid.js"></script>
-    {% endif %}
 
 
 </body>
