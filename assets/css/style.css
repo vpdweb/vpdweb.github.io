@@ -11,6 +11,7 @@
 *
 * ======================================================= */
 body {
+  background: #fff;
   font-family: "Roboto", Arial, sans-serif;
   font-size: 16px;
   line-height: 28px;
@@ -175,12 +176,6 @@ h6 {
     outline: none;
     box-shadow: none;
     border-color: #FF7844; }
-
-body {
-  background: #efefef url(../images/white_wave.png) repeat; }
-  @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-    body {
-      background: #efefef url(../images/white_wave_@2X.png) repeat; } }
 
 .boxed #vpdweb-page {
   max-width: 1340px;
@@ -416,7 +411,8 @@ body {
 #vpdweb-info,
 #vpdweb-pricing,
 #vpdweb-faqs,
-#vpdweb-footer {
+#vpdweb-footer,
+#vpdweb-404 {
   background-color: #fff;
   padding: 3em 0 0; }
   @media screen and (max-width: 768px) {
@@ -433,7 +429,8 @@ body {
     #vpdweb-info,
     #vpdweb-pricing,
     #vpdweb-faqs,
-    #vpdweb-footer {
+    #vpdweb-footer,
+    #vpdweb-404 {
       padding: 2em 0 0; } }
 
 #vpdweb-services .vpdweb-devices {
@@ -1040,6 +1037,11 @@ body {
         #vpdweb-footer .vpdweb-copyright .vpdweb-right {
           float: left; } }
 
+#vpdweb-404 {
+  text-align: center; }
+  #vpdweb-404 .error-404 {
+    margin-top: 20px; }
+
 .vpdweb-social {
   padding: 0;
   margin: 0; }
@@ -1310,5 +1312,27 @@ body {
 
 .js .animate-box {
   opacity: 0; }
+
+.parsley-errors-list {
+  color: red; }
+
+.bs-callout {
+  margin: 20px 0;
+  padding: 20px;
+  border-left: 3px solid #eee; }
+
+.bs-callout h4 {
+  margin-top: 0;
+  margin-bottom: 5px; }
+
+.bs-callout p:last-child {
+  margin-bottom: 0; }
+
+.bs-callout-info {
+  background-color: #f4f8fa;
+  border-color: #5bc0de; }
+
+.bs-callout-info h4 {
+  color: #5bc0de; }
 
 /*# sourceMappingURL=style.css.map */

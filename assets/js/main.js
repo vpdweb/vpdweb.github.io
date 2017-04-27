@@ -1,4 +1,3 @@
-;
 (function() {
 
     'use strict';
@@ -199,6 +198,17 @@
         }, { offset: '95%' });
     };
 
+    // Parsley form validation
+    var validateContactForm = function() {
+        $('#contact-form').parsley().on('field:validated', function() {
+            var ok = $('.parsley-error').length === 0;
+            $('.bs-callout-warning').toggleClass('hidden', ok);
+        })
+        .on('form:submit', function() {
+            return true;
+        });
+    };
+
 
 
     // Document on load.
@@ -212,6 +222,7 @@
         offcanvasMenu();
         burgerMenu();
         testimonialFlexslider();
+        validateContactForm();
         goToTop();
 
         // Animate

@@ -1,0 +1,18 @@
+<section id="vpdweb-header">
+    <div class="container">
+        <nav role="navigation">
+            <h1 id="vpdweb-logo"><a href="index.html"> {{ site.title }} </a></h1>
+            <ul class="pull-right right-menu">
+                {% assign site_pages = site.pages | sort: "order" %}
+                {% for page in site_pages %}
+                <li {% if page.title == "Contact" %} class="vpdweb-cta-btn" {% endif %}>
+                    {% if page.title == 404 %}
+                    {% continue %}
+                    {% endif %}
+                    <a href="{{ page.url | absolute_url }}">{{ page.title }}</a>
+                </li>
+                {% endfor %}
+            </ul>
+        </nav>
+    </div>
+</section>

@@ -1,92 +1,8 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!-->
-<html class="no-js">
-<!--<![endif]-->
-
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <title>Contact | VPDWEB</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="print, web design and development portfolio" />
-    <meta name="keywords" content="portfolio, web design, web development, web scraping, logo design, print design" />
-    <meta name="author" content="vpdweb.com" />
-
-    <!-- Facebook and Twitter integration -->
-    <meta property="og:title" content="" />
-    <meta property="og:image" content="" />
-    <meta property="og:url" content="" />
-    <meta property="og:site_name" content="" />
-    <meta property="og:description" content="" />
-    <meta name="twitter:title" content="" />
-    <meta name="twitter:image" content="" />
-    <meta name="twitter:url" content="" />
-    <meta name="twitter:card" content="" />
-
-    <!-- Favicons -->
-    <meta name="msapplication-square70x70logo" content="assets/images/icons/windows-tile-70x70.png">
-    <meta name="msapplication-square150x150logo" content="assets/images/icons/windows-tile-150x150.png">
-    <meta name="msapplication-square310x310logo" content="assets/images/icons/windows-tile-310x310.png">
-    <meta name="msapplication-TileImage" content="assets/images/icons/windows-tile-144x144.png">
-    <meta name="msapplication-TileColor" content="#515045">
-    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="assets/images/icons/apple-touch-icon-152x152-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="assets/images/icons/apple-touch-icon-120x120-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="assets/images/icons/apple-touch-icon-76x76-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="assets/images/icons/apple-touch-icon-60x60-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/images/icons/apple-touch-icon-144x144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/images/icons/apple-touch-icon-114x114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/images/icons/apple-touch-icon-72x72-precomposed.png">
-    <link rel="apple-touch-icon" sizes="57x57" href="assets/images/icons/apple-touch-icon.png">
-    <link rel="icon" sizes="228x228" href="assets/images/icons/coast-icon-228x228.png">
-    <link rel="shortcut icon" href="assets/images/icons/favicon.ico">
-    <link rel="icon" type="image/png" sizes="64x64" href="assets/images/icons/favicon.png">
-
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,600,400italic,700' rel='stylesheet' type='text/css'>
-
-    <!-- Animate.css -->
-    <link rel="stylesheet" href="assets/css/animate.css">
-    <!-- Flexslider -->
-    <link rel="stylesheet" href="assets/css/flexslider.css">
-    <!-- Icomoon Icon Fonts-->
-    <link rel="stylesheet" href="assets/css/icomoon.css">
-    <!-- Magnific Popup -->
-    <link rel="stylesheet" href="assets/css/magnific-popup.css">
-    <!-- Bootstrap  -->
-    <link rel="stylesheet" href="assets/css/bootstrap.css">
-    <!-- Main theme -->
-    <link rel="stylesheet" href="assets/css/style.css">  
-    <!-- Modernizr JS -->
-    <script src="assets/js/modernizr-2.6.2.min.js"></script>
-    <!-- FOR IE9 below -->
-    <!--[if lt IE 9]>
-	<script src="assets/js/respond.min.js"></script>
-	<![endif]-->
-
-</head>
-
-<body>
-
-    <!-- Loader -->
-    <div class="vpdweb-loader"></div>
-
-    <div id="vpdweb-page">
-        <section id="vpdweb-header">
-            <div class="container">
-                <nav role="navigation">
-                    <h1 id="vpdweb-logo"><a href="index.html">VPDWEB</a></h1>
-                    <ul class="pull-right right-menu">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="services.html">Services</a></li>
-                        <li><a href="portfolio.html">Portfolio</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li class="vpdweb-cta-btn"><a href="contact.html">Contact</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </section>
-        <!-- #vpdweb-header -->
+---
+layout: default
+title: Contact
+order: 5
+---
 <section id="vpdweb-hero" class="no-js-fullheight" style="background-image: url(assets/images/services_bg.jpg);" data-next="yes">
     <div class="vpdweb-overlay"></div>
     <div class="container">
@@ -120,27 +36,39 @@
                 </div>
             </div>
             <div class="row">
-                <form method="post" action="https://briskforms.com/go/6e126dd24d2175c0fd447507ee3a02e7">
+                <div class="col-md-6">
+                    <div class="bs-callout bs-callout-info hidden">
+                        <h4>Yay!</h4>
+                        <p>You're now good to go! Click the SEND button to proceed.</p>
+                    </div>
+                    <div class="bs-callout bs-callout-warning hidden">
+                        <h4>Oh, no!</h4>
+                        <p>This form has some errors! Please enter the required info.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <form id="contact-form" method="post" action="https://formspree.io/vpdwebdesign@gmail.com" >
                     <div class="col-md-6">
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <input type="text" name="Name" class="form-control" placeholder="Name">
+                                    <input type="text" name="Name" class="form-control" placeholder="Name" required="">
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <input type="text" name="Email" class="form-control" placeholder="Email">
+                                    <input type="email" name="Email" class="form-control" placeholder="Email" data-parsley-trigger="change" required="">
                                 </div>
                             </div>
                             <div class="col-md-12">
                                 <div class="form-group">
-                                    <textarea name="Message" class="form-control" id="" cols="30" rows="7" placeholder="Message"></textarea>
+                                    <textarea id="message" name="Message" class="form-control" id="" cols="30" rows="7" placeholder="Message (at least 20 and at most 300 characters long...)" required="" data-parsley-trigger="keyup" data-parsley-minlength="20" data-parsley-maxlength="300" data-parsley-minlength-message="Please enter at least a 20 character message!" data-parsley-maxlength-message="Please enter at most a 300 character message!" data-parsley-validation-threshold="10"></textarea>
                                 </div>
                             </div>
                             <div class="col-md-12">
                                 <div class="form-group">
-                                    <input type="submit" value="Send Message" class="btn btn-primary">
+                                    <input type="submit" value="Send" class="btn btn-primary">
                                 </div>
                             </div>
                         </div>
@@ -150,164 +78,8 @@
                     <ul class="contact-info">
                         <li><i class="icon-location-arrow"></i>Nairobi, Mombasa</li>
                         <li><i class="icon-phone"></i>+254 736900303 / +254 713015108</li>
-                        <li><i class="icon-mail2"></i>info@vpdweb.com</li>
                     </ul>
                 </div>
             </div>
         </div>
 </section>
-
-        <section id="vpdweb-testimonials">
-            <div class="container">
-                <div class="row row-bottom-padded-sm">
-                    <div class="col-md-6 col-md-offset-3 text-center">
-                        <h2 class="vpdweb-lead ">What clients say</h2>
-                        <p class="vpdweb-sub-lead">We work around the clock to make sure clients get what they want on time and at an affordable price. Here's what some of our clients say about us and our services. Click on a client's photo to read their testimonial.</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2 text-center ">
-                        <div class="flexslider-controls">
-                            <ol class="flex-control-nav">
-                                <li><img src="assets/images/jezz.jpg" alt="Jezz Mnjala"></li>
-                                <li><img src="assets/images/raymond.jpg" alt="Raymond Mughendi"></li>
-                                <li><img src="assets/images/kepher.jpg" alt="Kepher Luhombo"></li>
-                                <li><img src="assets/images/ted.jpg" alt="Steve Ted Jr."></li>
-                                <li><img src="assets/images/hebron.jpg" alt="Hebron Nyange"></li>
-                            </ol>
-                        </div>
-                        <div class="flexslider">
-                            <ul class="slides">
-                                <li>
-                                    <blockquote>
-                                        <p>Well, I was referred to VPDWEB by a friend who had good things to say about their services. But I just wanted a simple logo done. I called them up, we met, talked about a side project and a few days later I had
-                                            myself a beautiful, simple logo which looked good in colour as it did in black and white. Since then these are my go to guys for most of my design stuff.</p>
-                                        <p><cite>&mdash; Jezz Mnjala</cite></p>
-                                        <ul class="vpdweb-social">
-                                            <!--<li><a href="#"><i class="icon-facebook"></i></a></li>-->
-                                            <li><a href="mailto:jmnjala@gmail.com"><i class="icon-envelope"></i></a></li>
-                                            <li><a href="http://linkedin.com/in/jezreelmnjala" target="_blank"><i class="icon-linkedin"></i></a></li>
-                                        </ul>
-                                    </blockquote>
-                                </li>
-                                <li>
-                                    <blockquote>
-                                        <p>I'm the Manager at St Thomas Church Ufanisi Training Institute in Kilifi, North Coast. I met Victor through a friend while I was looking for someone to build a website for our college. He quickly mocked up a series
-                                            of designs in Photoshop over several meetings we had in the following days. I liked the designs and he went on to build the website, integrating it into Wordpress so that we could be doing updates ourselves.
-                                            He made the whole process seem so much simpler and quicker than I had thought initially.</p>
-                                        <p><cite>&mdash; Raymond Mghendi</cite></p>
-                                        <ul class="vpdweb-social">
-                                            <li><a href="mailto:raymwaka007@yahoo.com"><i class="icon-envelope"></i></a></li>
-                                            <li><a href="http://linkedin.com/in/raymond-mghendi-1b08466a" target="_blank"><i class="icon-linkedin"></i></a></li>
-                                        </ul>
-
-                                    </blockquote>
-                                </li>
-                                <li>
-                                    <blockquote>
-                                        <p>I'm the Minister at a small church in Shimoni, South Coast. VPDWEB have been very invaluable in helping me design a series of advertisement material for church functions. The great thing about our relationship is
-                                            that we rarely have to meet face to face. I simply call them up, tell them what I need, and a few email attachments later we settle on a final design which they quickly print, package and send over by post.
-                                            It's that simple. Their rates are also affordable compared to the people I've dealt with in the past.</p>
-                                        <p><cite>&mdash; Kepher Luhombo</cite></p>
-                                        <ul class="vpdweb-social">
-                                            <li><a href="http://www.facebook.com/kepher.luhombo" target="_blank"><i class="icon-facebook"></i></a></li>
-                                            <!--<li><a href="#"><i class="icon-envelope"></i></a></li>-->
-                                            <!--<li><a href="#"><i class="icon-skype"></i></a></li>-->
-                                        </ul>
-                                    </blockquote>
-                                </li>
-                                <li>
-                                    <blockquote>
-                                        <p>I've known Victor for the better part of five years and in that time he's designed for me a business card, a logo and advertisement flyers for my farming business. I've been very impressed by the nature of his work
-                                            &mdash; the level of commitment, professionalism and creativity he shows are things which I find lacking in most people in the design business. I highly recommend his services to anyone who values quality work.</p>
-                                        <p><cite>&mdash; Steve Ted Jr.</cite></p>
-                                        <ul class="vpdweb-social">
-                                            <li><a href="http://www.facebook.com/teddy.kotho" target="_blank"><i class="icon-facebook"></i></a></li>
-                                            <li><a href="mailto:teddykotho@yahoo.com"><i class="icon-envelope"></i></a></li>
-                                        </ul>
-                                    </blockquote>
-                                </li>
-                                <li>
-                                    <blockquote>
-                                        <p>I approached Victor with an offer to write me a web scraper that could collect specific job vacancy advertisements from several online sites here in the country and give me the results in a neat way that I could
-                                            quickly digest. He said yes and wrote me a program in <em>Python</em>, installed it on my laptop and it did more than what I expected. I could filter results by salary, location, or whatever criteria was available.
-                                            This was an invaluable tool. I have a job now but my friends use it from time to time. Sometimes I fire it up just for fun to see the results the program comes up with. Sometimes I don't get results on some
-                                            websites but I guess it's because it needs updates or something as websites tend to change over time from what I understand.</p>
-                                        <p><cite>&mdash; Hebron Nyange</cite></p>
-                                        <ul class="vpdweb-social">
-                                            <li><a href="http://www.facebook.com/hebron.nyange" target="_blank"><i class="icon-facebook"></i></a></li>
-                                            <li><a href="mailto:hebron9491@gmail.com"><i class="icon-envelope"></i></a></li>
-                                        </ul>
-                                    </blockquote>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!--<section id="vpdweb-subscribe">
-            <div class="container">
-
-                <h3><label for="email">Get price quotes for all our services</label></h3>
-                <form action="#" method="post">
-                    <i class="vpdweb-icon icon-paper-plane"></i>
-                    <input type="email" class="form-control" placeholder="Enter your email" id="email" name="email">
-                    <input type="submit" value="Send" class="btn btn-primary">
-                </form>
-
-            </div>
-        </section>-->
-
-        <footer id="vpdweb-footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="vpdweb-footer-widget">
-                            <p>Follow us</p>
-                            <ul class="vpdweb-social">
-                                <li><a href="http://twitter.com/vpdweb" target="_blank"><i class="icon-twitter"></i></a></li>
-                                <li><a href="http://www.facebook.com/Vpdweb-1297264000352460/" target="_blank"><i class="icon-facebook"></i></a></li>
-                                <li><a href="http://www.instagram.com/vpdweb/" target="_blank"><i class="icon-instagram"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="vpdweb-copyright ">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <p class="vpdweb-left"><small>&copy; 2017 <a href="index.html">VPDWEB&nbsp;&nbsp; </a></small></p>
-                            <p class="vpdweb-right"><small class="vpdweb-right">Designed by <a href="http://vpdweb.com" target="_blank">VPDWEB</a></small></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <!-- END #vpdweb-footer -->
-    </div>
-    <!-- END #vpdweb-page -->
-
-    <!-- jQuery -->
-    <script src="assets/js/jquery.min.js"></script>
-    <!-- jQuery Easing -->
-    <script src="assets/js/jquery.easing.1.3.js"></script>
-    <!-- Bootstrap -->
-    <script src="assets/js/bootstrap.min.js"></script>
-    <!-- Waypoints -->
-    <script src="assets/js/jquery.waypoints.min.js"></script>
-    <!-- Flexslider -->
-    <script src="assets/js/jquery.flexslider-min.js"></script>
-    <!-- Magnific Popup -->
-    <script src="assets/js/jquery.magnific-popup.min.js"></script>
-    <script src="assets/js/magnific-popup-options.js"></script>
-    <!-- Main js file -->
-    <script src="assets/js/main.js"></script>
- 
-
-</body>
-
-</html>

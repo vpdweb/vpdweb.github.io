@@ -1,0 +1,41 @@
+<section id="vpdweb-testimonials">
+    <div class="container">
+        <div class="row row-bottom-padded-sm">
+            <div class="col-md-6 col-md-offset-3 text-center">
+                <h2 class="vpdweb-lead ">What clients say</h2>
+                <p class="vpdweb-sub-lead">We work around the clock to make sure clients get what they want on time and at an affordable price. Here's what some of our clients say about us and our services. Click on a client's photo to read their testimonial.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 text-center ">
+                {% assign sorted_testimonials = site.testimonials | sort: "order" %}
+                <div class="flexslider-controls">
+                    <ol class="flex-control-nav">
+                        {% for testimonial in sorted_testimonials %}
+                        <li><img src="{{ testimonial.image_path }}" alt="{{ testimonial.name }}"></li>
+                        {% endfor %}
+                    </ol>
+                </div>
+                <div class="flexslider">
+                    <ul class="slides">
+                        {% for testimonial in sorted_testimonials %}
+                        <li>
+                            <blockquote>
+                                {{ testimonial.content }}
+                                <p><cite>&mdash; {{ testimonial.name }}</cite></p>
+                                <ul class="vpdweb-social">
+                                    {% for social_link in testimonial.social_links %} {% if social_link.email %}
+                                    <li><a href="{{ social_link.link | prepend: 'mailto:' }}" target="_blank"><i class="{{ social_link.icon_name }}"></i></a></li>
+                                    {% continue %} {% endif %}
+                                    <li><a href="{{ social_link.link }}" target="_blank"><i class="{{ social_link.icon_name }}"></i></a></li>
+                                    {% endfor %}
+                                </ul>
+                            </blockquote>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
