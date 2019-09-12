@@ -1,7 +1,7 @@
 ---
 title: College Course Ad Poster
-image_path: assets/images/portfolio/ackstuti_poster.jpg
-thumb_image_path: assets/images/portfolio/thumbs/ackstuti_poster.jpg
+image_path: ../assets/images/portfolio/ackstuti_poster.jpg
+thumb_image_path: ../assets/images/portfolio/thumbs/ackstuti_poster.jpg
 alt_text: College Course Poster
 tools_used: Adobe Illustrator, Adobe Photoshop
 client: ACK Church St Thomas Ufanisi Training Institute, Kilifi

@@ -1074,8 +1074,10 @@ h6 {
   .vpdweb-teammember .vpdweb-name {
     margin-bottom: 0;
     color: #484c50; }
-  .vpdweb-teammember .vpdweb-designation {
+  .vpdweb-teammember .vpdweb-role {
     color: #85919d; }
+  .vpdweb-teammember .vpdweb-email {
+      color: #85919d; }
   .vpdweb-teammember .vpdweb-bio {
     text-align: left; }
 

@@ -1,7 +1,7 @@
 ---
 title: Two-sided Business Card
-image_path: assets/images/portfolio/shairina_bizcard_2.jpg
-thumb_image_path: assets/images/portfolio/thumbs/shairina_bizcard_2.jpg
+image_path: ../assets/images/portfolio/shairina_bizcard_2.jpg
+thumb_image_path: ../assets/images/portfolio/thumbs/shairina_bizcard_2.jpg
 alt_text: Shairina Herbal Business Card
 tools_used: Adobe Illustrator
 client: Shairina Herbal

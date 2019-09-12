@@ -1,7 +1,7 @@
 ---
 title: Multi-color Logo Design
-image_path: assets/images/portfolio/magarini_logo.jpg
-thumb_image_path: assets/images/portfolio/thumbs/magarini_logo.jpg
+image_path: ../assets/images/portfolio/magarini_logo.jpg
+thumb_image_path: ../assets/images/portfolio/thumbs/magarini_logo.jpg
 alt_text: Magarini Sands Logo
 tools_used: Sketch pad, Adobe Illustrator
 client: Magarini Sands Co-operative

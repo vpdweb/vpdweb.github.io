@@ -1,7 +1,7 @@
 ---
 title: Compliance Services Website
-image_path: assets/images/portfolio/simonslegal_website.jpg
-thumb_image_path: assets/images/portfolio/thumbs/simonslegal_website.jpg
+image_path: ../assets/images/portfolio/simonslegal_website.jpg
+thumb_image_path: ../assets/images/portfolio/thumbs/simonslegal_website.jpg
 alt_text: Legal Website
 tools_used: Photoshop, VS Code, Wordpress
 client: Simon Mburu, Lawyer

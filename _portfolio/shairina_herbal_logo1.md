@@ -1,7 +1,7 @@
 ---
 title: Two-color logo design
-image_path: assets/images/portfolio/shairina_logo.jpg
-thumb_image_path: assets/images/portfolio/thumbs/shairina_logo.jpg
+image_path: ../assets/images/portfolio/shairina_logo.jpg
+thumb_image_path: ../assets/images/portfolio/thumbs/shairina_logo.jpg
 alt_text: Shairina Herbal Logo Sample 1
 tools_used: Sketch pad, Adobe Illustrator
 client: Shairina Herbal

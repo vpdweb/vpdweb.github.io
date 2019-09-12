@@ -1,0 +1,14 @@
+<div class="row">
+    <div class="col-md-12">
+        {% assign sorted_teammembers = site.team | sort: "order" %}
+        <div class="vpdweb-teammember">
+            {% for member in sorted_teammembers %}
+            <figure><img src="{{ member.image_path }}" alt="{{ member.name }}"></figure>
+            <div class="vpdweb-name">{{ member.name }}</div>
+            <div class="vpdweb-designation">{{ member.role }}</div>
+            <div class="vpdweb-email">{{ member.email }}</div>
+            <div class="vpdweb-bio">{{ member.content }}</div>
+            {% endfor %}
+        </div>
+    </div>
+</div>

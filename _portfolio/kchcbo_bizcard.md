@@ -1,7 +1,7 @@
 ---
 title: Two-sided Business Card
-image_path: assets/images/portfolio/kchcbo_bizcard.jpg
-thumb_image_path: assets/images/portfolio/thumbs/kchcbo_bizcard.jpg
+image_path: ../assets/images/portfolio/kchcbo_bizcard.jpg
+thumb_image_path: ../assets/images/portfolio/thumbs/kchcbo_bizcard.jpg
 alt_text: KCHCBO Business Card
 tools_used: Adobe Illustrator
 client: Kwale County Herbalists, CBO

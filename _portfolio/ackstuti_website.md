@@ -1,7 +1,7 @@
 ---
 title: College Website
-image_path: assets/images/portfolio/ackstuti_website.jpg
-thumb_image_path: assets/images/portfolio/thumbs/ackstuti_website.jpg
+image_path: ../assets/images/portfolio/ackstuti_website.jpg
+thumb_image_path: ../assets/images/portfolio/thumbs/ackstuti_website.jpg
 alt_text: College Website
 tools_used: Photoshop, VS Code, Wordpress
 client: St Thomas Church Ufanisi Training Institute

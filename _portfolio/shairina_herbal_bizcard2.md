@@ -1,7 +1,7 @@
 ---
 title: One-sided Business Card
-image_path: assets/images/portfolio/shairina_bizcard.jpg
-thumb_image_path: assets/images/portfolio/thumbs/shairina_bizcard.jpg
+image_path: ../assets/images/portfolio/shairina_bizcard.jpg
+thumb_image_path: ../assets/images/portfolio/thumbs/shairina_bizcard.jpg
 alt_text: Shairina Herbal Business Card
 tools_used: Adobe Illustrator
 client: Shairina Herbal

@@ -1,7 +1,7 @@
 ---
 title: 4-in-1 Flier
-image_path: assets/images/portfolio/tgvs_flyer.jpg
-thumb_image_path: assets/images/portfolio/thumbs/tgvs_flyer.jpg
+image_path: ../assets/images/portfolio/tgvs_flyer.jpg
+thumb_image_path: ../assets/images/portfolio/thumbs/tgvs_flyer.jpg
 alt_text: TGVS School Flier
 tools_used: Sketch pad, Adobe Illustrator
 client: The Great Vision Secondary School

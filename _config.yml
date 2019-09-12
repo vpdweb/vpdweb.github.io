@@ -1,6 +1,5 @@
-plugins:
-    - jekyll-sitemap
 title: VPDWEB
+permalink: /:title.html/
 collections:
     - portfolio
     - testimonials

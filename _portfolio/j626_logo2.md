@@ -1,7 +1,7 @@
 ---
 title: Fashion Brand Logo
-image_path: assets/images/portfolio/j626_logo2.jpg
-thumb_image_path: assets/images/portfolio/thumbs/j626_logo2.jpg
+image_path: ../assets/images/portfolio/j626_logo2.jpg
+thumb_image_path: ../assets/images/portfolio/thumbs/j626_logo2.jpg
 alt_text: J626 Logo Sample 2
 tools_used: Wacom Tablet, Adobe Illustrator
 client: J626 Brands Kenya
