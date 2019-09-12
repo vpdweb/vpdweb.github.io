@@ -3,3 +3,4 @@ permalink: /:title.html/
 collections:
     - portfolio
     - testimonials
+    - team
