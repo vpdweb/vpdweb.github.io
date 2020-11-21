@@ -1582,7 +1582,6 @@ h6 {
 
 .vpdweb-teammember {
   text-align: center;
-  margin-bottom: 30px;
 }
 
 @media screen and (max-width: 992px) {
@@ -1600,6 +1599,11 @@ h6 {
 .vpdweb-teammember figure img {
   margin: 0 auto;
   display: block;
+  width: 100px;
+  margin-bottom: 20px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
   border-radius: 50%;
 }
 
